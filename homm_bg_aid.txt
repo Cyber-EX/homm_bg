@@ -17,13 +17,14 @@ GAME ROUND
                               Spell Book
     6. PLAYER TURN
         a) Hand = Limit (Discard & Draw)
-        b) Use MP: move & resolve field / discover Tile / place Tile
+        b) - Use MP: move & resolve field / discover Tile / place Tile
+           - Play card from your hand
         c) IF 2x Negative Morale => discard all cards
     7. Check Win/Lose, 3 rounds without Town/Settlment => Lose
 
 
 MAP ACTIONS
-    - Rulebook LIST OF MAP LOCATIONS
+    - See LIST OF MAP LOCATIONS (Rulebook page 20)
     - Town: IF capture => gain Faction Cube / scenario bonus
     - Town/Settlment: teleport army = 8 gold
     - Settlement: Capture                   IF first time
