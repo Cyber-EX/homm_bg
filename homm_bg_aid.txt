@@ -1,5 +1,6 @@
 Heroes of Might and Magic III: The Board Game
 Custom Player's Aid
+(free for any use)
 
 
 GAME ROUND
@@ -27,7 +28,7 @@ MAP ACTIONS
     - Town/Settlment: teleport army = 8 gold
     - Settlement: Capture                   IF first time
                   - gold income +5          - gain 5 gold
-                  - Ore income +2           - gain 2 Ore
+                  - ore income +2           - gain 2 Ore
                   - crystal income +1       - gain 1 crystal
                   - upgrade bronze/silver   - upgrade
                     for half (round up)       for free
@@ -70,13 +71,11 @@ UNIT TURN
         - IF Defend => end turn
     3. Use <Activate>, <Ongoing>, <Instant>
     4. Attack Phase
-        Attacker:
-            a) Use <Instant>
-            b) Roll Attack die (D3: -1, 0, +1)
-                - IF Ranged in melee OR back to back => 2x Attck die, resolve lower
-        Defender:
-            a) IF Defense token => roll Defense die (D3: 0, 0, +1)
-            b) IF Paralysis token => remove Paralysis token
+        a) Attacker - Use <Instant>
+        b) Attacker - Roll Attack die (D3: -1, 0, +1)
+                    - IF Ranged in melee OR back to back => 2x Attck die, resolve lower
+        c) Defender - IF Defense token => roll Defense die (D3: 0, 0, +1)
+        d) Defender - IF Paralysis token => remove Paralysis token
     5. Resolve damage
         - IF Gate/Wall attacked by Ground/Flying => Gate/Wall destroyed
         - DAMAGE =   Attack stat
