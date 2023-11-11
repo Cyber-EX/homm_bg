@@ -47,10 +47,9 @@ COMBAT PREPARE
     - IF Hero lvl > Neutrals lvl => Neutrals flee                  |Backline |
     - Use Diplomacy: IF Hero lvl = Neutrals lvl => Neutrals flee   |Frontline|---+
     - IF combat in Town with Citadel => Gate, Walls, Arrow Tower   | W W G W | A |
-    - Units placement:                                             |Frontline|---+
-                       MAX 5 Units                                 |Backline |
-                       Neutrals then Attacker then Defender        +---------+
-                       Set initiative tracker
+    - Units placement: MAX 5 Units                                 |Frontline|---+
+                       Neutrals then Attacker then Defender        |Backline |
+                       Set initiative tracker                      +---------+
 COMBAT ROUND
     - Reset tokens: Activate, Retaliation
 PLAYER TURN (Attacker first)
