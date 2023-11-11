@@ -1,0 +1,114 @@
+GAME ROUND
+    1. Timed events
+    2. Reset tokens: Towm, Hero
+    3. Round type: First    => nothing
+                   Resource => gain income
+                   Astro    => draw & resolve Astro card
+    4. ANYTIME - Morale: Draw 1 card
+                         Discard = Draw
+                         Reroll die
+    5. ANYTIME EXCEPT COMBAT: Build
+                              Population
+                              Spell Book
+    6. PLAYER TURN
+        a) Hand = Limit (Discard & Draw)
+        b) Use MP: move & resolve field / discover Tile / place Tile
+        c) IF 2x Negative Morale => discard all cards
+    7. Check Win/Lose, 3 rounds without Town/Settlment => Lose
+
+
+MAP ACTIONS
+    - Rulebook LIST OF MAP LOCATIONS
+    - Town: IF capture => gain Faction Cube / scenario bonus
+    - Town/Settlment: teleport army = 8 gold
+    - Settlement: Capture                   IF first time
+                  - gold income +5          - gain 5 gold
+                  - Ore income +2           - gain 2 Ore
+                  - crystal income +1       - gain 1 crystal
+                  - upgrade bronze/silver   - upgrade
+                    for half (round up)       for free
+
+
+HEROES
+                     MAIN         SECONDARY (10 gold)
+    Movement Point   3            2
+    Use Deck & Exp   Yes          No
+    Use Units        Yes          Yes
+    Collect Cards    Yes          Yes
+    Avoid combat     Surrender    Remove before combat
+    IF defeated =>   Town/Settl   Remove
+
+
+COMBAT PREPARE
+    - May remove secondary hero                                    +---------+
+    - IF Hero lvl > Neutrals lvl => Neutrals flee                  |Backline |
+    - Use Diplomacy: IF Hero lvl = Neutrals lvl => Neutrals flee   |Frontline|---+
+    - Units placement: IF Siege => Gate, Walls, Arrow Tower        | W W G W | A |
+                       MAX 5 Units                                 |Frontline|---+
+                       Neutrals then Attacker then Defender        |Backline |
+                       Set initiative tracker                      +---------+
+COMBAT ROUND
+    - Reset tokens: Activate, Retaliation
+PLAYER TURN (Attacker first)
+    - 1 spell per round before any activation
+    - Spell damage removes Paralysis token
+    - IF vs Neutrals => +1 turn = 1 MP
+UNIT TURN
+    1. Activate
+        a) May surrender IF NOT defending Town
+        b) Remove Defense token (can't use Defense this round)
+        c) IF Paralysis token => remove Paralysis token, skip turn
+        d) Use <Activate>, <Ongoing>, <Instant>
+    2. Move
+        - IF Ground/Flying => Move 0-3 then Attack/Defend
+        - IF Ranged => Attack then Move 0-1
+                       OR Defend only
+        - IF Defend => end turn
+    3. Use <Activate>, <Ongoing>, <Instant>
+    4. Attack Phase
+        Attacker:
+            a) Use <Instant>
+            b) Roll Attack die (D3: -1, 0, +1)
+                - IF Ranged in melee OR back to back => 2x Attck die, resolve lower
+        Defender:
+            a) IF Defense token => roll Defense die (D3: 0, 0, +1)
+            b) IF Paralysis token => remove Paralysis token
+    5. Resolve damage
+        - IF Gate/Wall attacked by Ground/Flying => Gate/Wall destroyed
+        - DAMAGE =   Attack stat
+                   - Defense stat
+                   + Attack die
+                   - Defense die
+                   - 1 IF ranged attack & Wall/Gate
+        - IF  DAMAGE<0  =>  DAMAGE=0
+        - HP = HP - DAMAGE
+    6. Retaliation
+        - Only IF melee
+        - Function like Attack Phase
+        - Each Unit retaliates only once per round
+        - After retaliation put NO RETALIATE token
+
+COMBAT END
+    - Discard all <Ongoing> in play
+    RETREAT
+        - Happens IF combat was not extended
+        - Only vs Neutrals except Azure
+        - Move Hero to previous map field
+        - Save army
+    SURRENDER
+        - Happens on Activate Unit
+        - Only vs Hero IF NOT defending Town
+        - Pay 10 gold to Enemy Hero
+        - Teleport to any Town/Settlement
+        - Save army
+    DEFEAT
+        - Happens IF all Units lost
+        - IF vs Hero => Pay 5 gold to Winner Hero
+        - Gain Negative Morale
+        - Teleport to any Town/Settlement
+        - Take starting units
+        - Winner Hero gains Faction Cube
+        - Winner Hero gains Exp:
+            - IF Hero lvl = Enemy lvl => +1 Exp
+            - IF Hero lvl < Enemy lvl => +2 Exp
+            - IF Azure Enemy => gain 7 lvl
