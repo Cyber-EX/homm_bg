@@ -1,6 +1,9 @@
+Heroes of Might and Magic III: The Board Game
+Custom Player's Aid
+
 GAME ROUND
     1. Timed events
-    2. Reset tokens: Towm, Hero
+    2. Reset tokens: Town, Hero
     3. Round type: First    => nothing
                    Resource => gain income
                    Astro    => draw & resolve Astro card
@@ -43,16 +46,17 @@ COMBAT PREPARE
     - May remove secondary hero                                    +---------+
     - IF Hero lvl > Neutrals lvl => Neutrals flee                  |Backline |
     - Use Diplomacy: IF Hero lvl = Neutrals lvl => Neutrals flee   |Frontline|---+
-    - Units placement: IF Siege => Gate, Walls, Arrow Tower        | W W G W | A |
-                       MAX 5 Units                                 |Frontline|---+
-                       Neutrals then Attacker then Defender        |Backline |
-                       Set initiative tracker                      +---------+
+    - IF combat in Town with Citadel => Gate, Walls, Arrow Tower   | W W G W | A |
+    - Units placement:                                             |Frontline|---+
+                       MAX 5 Units                                 |Backline |
+                       Neutrals then Attacker then Defender        +---------+
+                       Set initiative tracker
 COMBAT ROUND
     - Reset tokens: Activate, Retaliation
 PLAYER TURN (Attacker first)
     - 1 spell per round before any activation
     - Spell damage removes Paralysis token
-    - IF vs Neutrals => +1 turn = 1 MP
+    - IF vs Neutrals => +1 round = 1 MP
 UNIT TURN
     1. Activate
         a) May surrender IF NOT defending Town
@@ -112,3 +116,9 @@ COMBAT END
             - IF Hero lvl = Enemy lvl => +1 Exp
             - IF Hero lvl < Enemy lvl => +2 Exp
             - IF Azure Enemy => gain 7 lvl
+
+
+--
+Heroes of Might and Magic III: The Board Game
+copyrighted by
+Archon Studio
