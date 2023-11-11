@@ -1,6 +1,7 @@
 Heroes of Might and Magic III: The Board Game
 Custom Player's Aid
 
+
 GAME ROUND
     1. Timed events
     2. Reset tokens: Town, Hero
