@@ -7,7 +7,7 @@ Unofficial Custom Player's Aid
     This document is intended for use during gameplay as a quick reference to main game actions.
     Information here is mostly the same as in the Core Rulebook, but VERY MUCH MORE compact.
     
-    Iformation that is not included in this document:
+    Information that is not included in this document:
         - COMPONENT LIST (pages 3-5)
         - GAME OVERVIEW (page 6)
         - GAME SETUP (pages 7-9)
@@ -41,14 +41,14 @@ GAME ROUND
              (tile must touch your Hero & 2+ tiles, tile must have path to any tile)
            - Play cards from your hand
         c) IF 2x Negative Morale => discard all cards
-    7. Check Win/Lose, 3 rounds without Town/Settlment => Lose
+    7. Check Win/Lose, 3 rounds without Town/Settlement => Lose
 
 
 MAP ACTIONS
 -----------
     - See LIST OF MAP LOCATIONS (Rulebook page 20)
     - Town: IF capture => gain Faction Cube / scenario bonus
-    - Town/Settlment: teleport army = 8 gold
+    - Town/Settlement: teleport army = 8 gold
     - Settlement: Capture                   IF first time
                   - gold income +5          - gain 5 gold
                   - ore income +2           - gain 2 Ore
@@ -100,7 +100,7 @@ UNIT TURN
     4. Attack Phase
         a) Attacker - Use <Instant>
         b) Attacker - Roll Attack die (D3: -1, 0, +1)
-                    - IF Ranged in melee OR back to back => 2x Attck die, resolve lower
+                    - IF Ranged in melee OR back to back => 2x Attack die, resolve lower
         c) Defender - IF Defense token => roll Defense die (D3: 0, 0, +1)
         d) Defender - IF Paralysis token => remove Paralysis token
     5. Resolve damage
