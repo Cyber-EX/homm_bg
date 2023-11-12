@@ -1,9 +1,28 @@
+=============================================
 Heroes of Might and Magic III: The Board Game
-Custom Player's Aid
+Unofficial Custom Player's Aid
 (free for any use)
+=============================================
+
+    This document is intended for use during gameplay as a quick reference to main game actions.
+    Information here is mostly the same as in the Core Rulebook, but VERY MUCH MORE compact.
+    
+    Iformation that is not included in this document:
+        - COMPONENT LIST (pages 3-5)
+        - GAME OVERVIEW (page 6)
+        - GAME SETUP (pages 7-9)
+        - LIST OF MAP LOCATIONS (pages 20-25)
+        - PLAYER vs AI (page 33)
+        - GAME SETTINGS (page 34)
+        - Field Difficulty Level Table (page 35)
+        - TRADE TABLE (page 36)
+        - Core Rulebook PLAYER’S AID (page 40)
+        - Information that is on game components: Playing Cards, Unit Cards, Map Tiles, Hero Card, Town Board
+    It was decided that this excluded information is either easier to read from source or is easy to remember.
 
 
 GAME ROUND
+----------
     1. Timed events
     2. Reset tokens: Town, Hero
     3. Round type: First    => nothing
@@ -17,13 +36,16 @@ GAME ROUND
                               Spell Book
     6. PLAYER TURN
         a) Hand = Limit (Discard & Draw)
-        b) - Use MP: move & resolve field / discover Tile / place Tile
-           - Play card from your hand
+        b) - Use 1 MP to move & resolve field
+           - Use 1 MP to discover Map Tile OR place Map Tile
+             (tile must touch your Hero & 2+ tiles, tile must have path to any tile)
+           - Play cards from your hand
         c) IF 2x Negative Morale => discard all cards
     7. Check Win/Lose, 3 rounds without Town/Settlment => Lose
 
 
 MAP ACTIONS
+-----------
     - See LIST OF MAP LOCATIONS (Rulebook page 20)
     - Town: IF capture => gain Faction Cube / scenario bonus
     - Town/Settlment: teleport army = 8 gold
@@ -36,6 +58,7 @@ MAP ACTIONS
 
 
 HEROES
+------
                      MAIN         SECONDARY (10 gold)
     Movement Point   3            2
     Use Deck & Exp   Yes          No
@@ -46,6 +69,7 @@ HEROES
 
 
 COMBAT PREPARE
+--------------
     - May remove secondary hero                                    +---------+
     - IF Hero lvl > Neutrals lvl => Neutrals flee                  |Backline |
     - Use Diplomacy: IF Hero lvl = Neutrals lvl => Neutrals flee   |Frontline|---+
@@ -53,7 +77,9 @@ COMBAT PREPARE
     - Units placement: MAX 5 Units                                 |Frontline|---+
                        Neutrals then Attacker then Defender        |Backline |
                        Set initiative tracker                      +---------+
+
 COMBAT ROUND
+------------
     - Reset tokens: Activate, Retaliation
 PLAYER TURN (Attacker first)
     - 1 spell per round before any activation
@@ -93,6 +119,7 @@ UNIT TURN
         - After retaliation put NO RETALIATE token
 
 COMBAT END
+----------
     - Discard all <Ongoing> in play
     RETREAT
         - Happens IF combat was not extended
