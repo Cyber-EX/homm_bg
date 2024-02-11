@@ -100,7 +100,7 @@ UNIT TURN
     4. Attack Phase
         a) Attacker - Use <Instant>
         b) Attacker - Roll Attack die (D3: -1, 0, +1)
-                    - IF Ranged in melee OR back to back => 2x Attack die, resolve lower
+                    - IF Ranged in melee OR backline to backline => 2x Attack die, resolve lower
         c) Defender - IF Defense token => roll Defense die (D3: 0, 0, +1)
         d) Defender - IF Paralysis token => remove Paralysis token
     5. Resolve damage
