@@ -64,13 +64,13 @@ HEROES
     Use Deck & Exp   Yes          No
     Use Units        Yes          Yes
     Collect Cards    Yes          Yes
-    Avoid combat     Surrender    Remove before combat
+    Avoid combat     Surrender    Remove before combat (Counts as defeat)
     IF defeated =>   Town/Settl   Remove
 
 
 COMBAT PREPARE
 --------------
-    - May remove secondary hero                                    +---------+
+    - May remove secondary hero (Counts as defeat)                 +---------+
     - IF Hero lvl > Neutrals lvl => Neutrals flee                  |Backline |
     - Use Diplomacy: IF Hero lvl = Neutrals lvl => Neutrals flee   |Frontline|---+
     - IF combat in Town with Citadel => Gate, Walls, Arrow Tower   | W W G W | A |
