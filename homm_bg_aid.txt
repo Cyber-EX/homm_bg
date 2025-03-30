@@ -49,12 +49,14 @@ MAP ACTIONS
     - See LIST OF MAP LOCATIONS (Rulebook page 20)
     - Town: IF capture => gain Faction Cube / scenario bonus
     - Town/Settlement: teleport army = 8 gold
-    - Settlement: Capture                   IF first time
-                  - gold income +5          - gain 5 gold
-                  - ore income +2           - gain 2 Ore
-                  - crystal income +1       - gain 1 crystal
-                  - upgrade bronze/silver   - upgrade
-                    for half (round up)       for free
+    - Settlement: Choose only one option
+                  IF first time         After capture
+                  - gain 5 gold         - gold income +5
+                  - gain 2 Ore          - ore income +2
+                  - gain 1 crystal      - crystal income +1
+                  - upgrade once one    - upgrade once one
+                    bronze/silver         bronze/silver
+                    for free              for half price (round up)
 
 
 HEROES
@@ -75,7 +77,7 @@ COMBAT PREPARE
     - Use Diplomacy: IF Hero lvl = Neutrals lvl => Neutrals flee   |Frontline|---+
     - IF combat in Town with Citadel => Gate, Walls, Arrow Tower   | W W G W | A |
     - Units placement: MAX 5 Units                                 |Frontline|---+
-                       Neutrals then Attacker then Defender        |Backline |
+                       First Attacking player, then Defending      |Backline |
                        Set initiative tracker                      +---------+
 
 COMBAT ROUND
