@@ -61,7 +61,7 @@ MAP ACTIONS
 
 HEROES
 ------
-                     MAIN         SECONDARY (10 gold)
+                     MAIN         SECONDARY (for 10 gold in Town/Settlement)
     Movement Point   3            2
     Use Deck & Exp   Yes          No
     Use Units        Yes          Yes
@@ -79,6 +79,7 @@ COMBAT PREPARE
     - Units placement: MAX 5 Units                                 |Frontline|---+
                        First Attacking player, then Defending      |Backline |
                        Set initiative tracker                      +---------+
+    - Defending player may transport army to Town/Settlement for 8 gold
 
 COMBAT ROUND
 ------------
@@ -89,7 +90,7 @@ PLAYER TURN (Attacker first)
     - IF vs Neutrals => +1 round = 1 MP
 UNIT TURN
     1. Activate
-        a) May surrender IF NOT defending Town
+        a) May surrender for 10 gold IF NOT defending Town
         b) Remove Defense token (can't use Defense this round)
         c) IF Paralysis token => remove Paralysis token, skip turn
         d) Use <Activate>, <Ongoing>, <Instant>
@@ -129,7 +130,7 @@ COMBAT END
         - Move Hero to previous map field
         - Save army
     SURRENDER
-        - Happens on Activate Unit
+        - Happens on your Unit Activation
         - Only vs Hero IF NOT defending Town
         - Pay 10 gold to Enemy Hero
         - Teleport to any Town/Settlement
