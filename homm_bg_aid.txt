@@ -137,9 +137,9 @@ COMBAT END
         - Save army
     DEFEAT
         - Happens IF all Units lost
-        - IF vs Hero => Pay 5 gold to Winner Hero
-        - Gain Negative Morale
-        - Teleport to any Town/Settlement
+        - IF Main Hero defeated vs Hero => Pay 5 gold to Winner
+        - IF Main Hero defeated => Gain Negative Morale
+        - IF Main Hero defeated => Teleport to any Town/Settlement ELSE Lose
         - Take starting units
         - Winner Hero gains Faction Cube
         - Winner Hero gains Exp:
