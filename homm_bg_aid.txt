@@ -5,18 +5,18 @@ Unofficial Custom Player's Aid
 =============================================
 
     This document is intended for use during gameplay as a quick reference to main game actions.
-    Information here is mostly the same as in the Core Rulebook, but VERY MUCH MORE compact.
+    Information here is mostly the same as in the Core Rule Book or Rule Book Rewrite, but VERY MUCH MORE compact.
     
     Information that is NOT included in this document:
         - COMPONENT LIST (pages 3-5)
         - GAME OVERVIEW (page 6)
-        - GAME SETUP (pages 7-9)
-        - LIST OF MAP LOCATIONS (pages 20-25)
+        - GAME SETUP (pages 7-9)  // TOOD: seems GAME SETUP needs compact version
+        - LIST OF MAP LOCATIONS (pages 20-25)  // TODO: make LIST OF MAP LOCATIONS WITH ? SYMBOL
         - PLAYER vs AI (page 33)
         - GAME SETTINGS (page 34)
-        - Field Difficulty Level Table (page 35)
-        - TRADE TABLE (page 36)
-        - Core Rulebook PLAYER’S AID (page 40)
+        - Field Difficulty Level Table (page 35)  // Use during game
+        - TRADE TABLE (page 36)  // Use during game
+        - Core Rulebook PLAYER’S AID (page 40)  // Use during game
         - Information that is on game components: Playing Cards, Unit Cards, Map Tiles, Hero Card, Town Board
     It was decided that this excluded information is either easier to read from source or is easy to remember.
 
@@ -138,18 +138,19 @@ COMBAT
             - Keep survived Units
         SURRENDER may happen on your Unit Activation only vs Hero IF NOT defending Town
             - Pay 10 gold to Enemy Hero
-            - Move Hero to any your Town/Settlement
+            - IF Main Hero surrenders => Move Hero to any your Town/Settlement
+            - IF Secondary Hero surrenders => Remove Hero
             - Keep survived Units
         DEFEAT happens IF all Units are defeated
-            - IF Main Hero defeated => Gain Negative Morale
-            - IF Main Hero defeated => Move to any Town/Settlement ELSE Lose
+            - IF Main Hero defeated => Gain Negative Morale & Move Hero to any your Town/Settlement
             - IF Main Hero defeated vs Hero => Pay 5 gold to Winner
-            - Take starting units
-            - Winner Hero gains Faction Cube
+            - IF Secondary Hero defeated => Remove Hero
+            - Take starting Units
+            - Winner Hero gains enemy Faction Cube
             - Winner Hero gains Exp:
-                - IF Hero lvl = Enemy lvl => +1 Exp
-                - IF Hero lvl < Enemy lvl => +2 Exp
-                - IF Azure Enemy => gain 7 lvl
+                - IF Hero level = Enemy level => +1 Exp
+                - IF Hero level < Enemy level => +2 Exp
+                - IF Azure enemy => gain 7 level
 
 
 --
