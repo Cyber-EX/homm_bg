@@ -14,11 +14,16 @@ Unofficial Custom Player's Aid
         - LIST OF MAP LOCATIONS (pages 20-25)  // TODO: make LIST OF MAP LOCATIONS WITH ? SYMBOL
         - PLAYER vs AI (page 33)
         - GAME SETTINGS (page 34)
-        - Field Difficulty Level Table (page 35)  // Use during game
-        - TRADE TABLE (page 36)  // Use during game
-        - Core Rulebook PLAYER’S AID (page 40)  // Use during game
+        - Field Difficulty Level Table (page 35)  // Use during game AS IS
+        - TRADE TABLE (page 36)  // Use during game AS IS
+        - Core Rulebook PLAYER’S AID (page 40)  // Use during game AS IS
         - Information that is on game components: Playing Cards, Unit Cards, Map Tiles, Hero Card, Town Board
     It was decided that this excluded information is either easier to read from source or is easy to remember.
+
+
+GAME SETUP
+----------
+// TODO
 
 
 GAME ROUND
@@ -41,7 +46,7 @@ GAME ROUND
         - Build: build one building
         - Population: recruit & reinforce any number of Units
                       OR recruit Secondary Hero
-        - Spell Book: draw spells as Mage Guild instructs
+        - Spell Book: draw spells as described in Mage Guild
     PLAYER TURN
         PLAYER TURN BEGIN
             - Discard any number of cards, then Draw cards up to Hero Limit
