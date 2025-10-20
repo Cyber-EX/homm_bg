@@ -39,7 +39,7 @@ GAME ROUND
             - Reroll your one any die
     ANYTIME DURING GAME ROUND EXCEPT COMBAT
         - Build: build one building
-        - Population: recruit & reinforce any number of Units
+        - Population: recruit & reinforce any number of Units OR recruit Secondary Hero
         - Spell Book: draw spells as Mage Guild instructs
     PLAYER TURN
         PLAYER TURN BEGIN
@@ -72,14 +72,14 @@ MAP ACTIONS
 
 HEROES
 ------
-                     MAIN         SECONDARY (for 10 gold in Town/Settlement)
-    Movement Point   3            2
-    Use Deck & Exp   Yes          No
-    Use Units        Yes          Yes
-    Collect Cards    Yes          Yes
-    Avoid combat     Surrender    Remove before combat (Counts as defeat)
-    IF surrender =>  Town/Settl   Remove
-    IF defeated =>   Town/Settl   Remove
+                     MAIN                 SECONDARY (for 10 gold in Town/Settlement)
+    Movement Point    3                    2
+    Use Deck & Exp    Yes                  No
+    Use Units         Yes                  Yes
+    Collect Cards     Yes                  Yes
+    Avoid combat      Surrender            Remove before combat (Counts as defeat)
+    IF surrender =>   Move to Town/Settl   Remove
+    IF defeated =>    Move to Town/Settl   Remove
 
 
 COMBAT
