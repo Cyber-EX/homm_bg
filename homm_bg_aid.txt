@@ -53,8 +53,6 @@ GAME ROUND
             - IF 2x Negative Morale => discard all cards & discard 1x Negative Morale
     GAME ROUND END
         - Check Scenarion Win/Lose conditions
-        - IF Main Hero loses Combat without Town/Settlement => Lose
-        - IF Main Hero loses Combat when defending last Town/Settlement => Lose
         - IF Player plays 3 rounds without Town/Settlement => Lose
 
 
@@ -80,6 +78,7 @@ HEROES
     Use Units        Yes          Yes
     Collect Cards    Yes          Yes
     Avoid combat     Surrender    Remove before combat (Counts as defeat)
+    IF surrender =>  Town/Settl   Remove
     IF defeated =>   Town/Settl   Remove
 
 
@@ -138,12 +137,14 @@ COMBAT
             - Keep survived Units
         SURRENDER may happen on your Unit Activation only vs Hero IF NOT defending Town
             - Pay 10 gold to Enemy Hero
-            - IF Main Hero surrenders => Move Hero to any your Town/Settlement
+            - IF Main Hero surrenders => Move Hero to any your Town/Settlement IF any
             - IF Secondary Hero surrenders => Remove Hero
             - Keep survived Units
         DEFEAT happens IF all Units are defeated
             - IF Main Hero defeated => Gain Negative Morale & Move Hero to any your Town/Settlement
             - IF Main Hero defeated vs Hero => Pay 5 gold to Winner
+            - IF Main Hero defeated without Town/Settlement => Lose game
+            - IF Main Hero defeated when defending last Town/Settlement => Lose game
             - IF Secondary Hero defeated => Remove Hero
             - Take starting Units
             - Winner Hero gains enemy Faction Cube
