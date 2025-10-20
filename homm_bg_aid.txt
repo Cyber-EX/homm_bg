@@ -25,21 +25,22 @@ GAME ROUND
 ----------
     GAME ROUND BEGIN
         - Reset tokens
-            - Town (Build, Population, Spell Book)
-            - Heroes (Movement, Expert)
+            1. Town (Build, Population, Spell Book)
+            2. Heroes (Movement, Expert)
         - Round type
-            - First    => nothing
-            - Resource => all Players gain income
-            - Astro    => draw & resolve Astro card
+            IF First    => nothing
+            IF Resource => all Players gain income
+            IF Astro    => draw & resolve Astro card
         - Scenario timed events
     ANYTIME DURING GAME ROUND
-        - IF 1x Morale => may choose one option & lose 1x Morale
-            - Draw 1 card
-            - Discard & Draw same number of cards
-            - Reroll your one any die
+        - Use Positive Morale => choose one option:
+            Draw 1 card
+            OR Discard & Draw same number of cards
+            OR Reroll your any die
     ANYTIME DURING GAME ROUND EXCEPT COMBAT
         - Build: build one building
-        - Population: recruit & reinforce any number of Units OR recruit Secondary Hero
+        - Population: recruit & reinforce any number of Units
+                      OR recruit Secondary Hero
         - Spell Book: draw spells as Mage Guild instructs
     PLAYER TURN
         PLAYER TURN BEGIN
@@ -50,16 +51,15 @@ GAME ROUND
               (tile must touch your Hero & 2+ tiles, tile must have path to any tile)
             - Play cards from your hand
         PLAYER TURN END
-            - IF 2x Negative Morale => discard all cards & discard 1x Negative Morale
+            - IF 2x Negative Morale => discard all cards & lose 1x Negative Morale
     GAME ROUND END
-        - Check Scenarion Win/Lose conditions
-        - IF Player plays 3 rounds without Town/Settlement => Lose
+        - Check Scenario Win/Lose conditions
+        - IF Player plays 3 rounds without Town/Settlement => Lose game
 
 
-MAP ACTIONS
------------
-    - See LIST OF MAP LOCATIONS (Rulebook page 20)  // TODO: make LIST OF MAP LOCATIONS WITH ? SYMBOL
-    - Town: IF captured => gain enemy Faction Cube & scenario bonus
+MAP LOCATIONS  // TODO: make separate LIST OF MAP LOCATIONS WITH ? SYMBOL
+-------------
+    - See LIST OF MAP LOCATIONS (Rulebook page 20)
     - Settlement: Choose one option
                   IF first time         After capture
                   - gain 5 gold         - gold income +5
@@ -140,14 +140,14 @@ COMBAT
             - IF Main Hero surrenders => Move Hero to any your Town/Settlement IF any
             - IF Secondary Hero surrenders => Remove Hero
             - Keep survived Units
-        DEFEAT happens IF all Units are defeated
+        DEFEAT happens IF all Units defeated OR Secondary Hero was removed before combat
             - IF Main Hero defeated => Gain Negative Morale & Move Hero to any your Town/Settlement
             - IF Main Hero defeated vs Hero => Pay 5 gold to Winner
             - IF Main Hero defeated without Town/Settlement => Lose game
             - IF Main Hero defeated when defending last Town/Settlement => Lose game
             - IF Secondary Hero defeated => Remove Hero
-            - Take starting Units
-            - Winner Hero gains enemy Faction Cube
+            - IF all Units defeated => Take starting Units
+            - Winner Hero gains enemy Faction Cube & scenario bonus if any
             - Winner Hero gains Exp:
                 - IF Hero level = Enemy level => +1 Exp
                 - IF Hero level < Enemy level => +2 Exp
