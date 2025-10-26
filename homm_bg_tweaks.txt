@@ -1,0 +1,27 @@
+Sword of Judgement
+
+<Instant> +1 <Attack>, then discard X cards from your hand to gain +X <Attack>. - or - <Instant> +1 <Defense>, then discard X cards from your hand to gain +X <Defense>.
+
+---
+
+Hourglass of the Evil Hour
+
+<Instant> Discard your hand. The enemy gains <Negative Morale>. - or - <Ongoing> During this Combat, add -1 to all Attack die results.
+
+---
+
+Scales of the Greater Basilisk
+
+<Instant> +2 <Spell Power> - or - +1 <Spell Power>, then, draw a card.
+
+---
+
+Targ of the Rampaging Ogre
+
+<Instant> Discard 2 cards to gain +3 <Defense>. Then, instead of discarding, put this card back into your hand. - or - <Instant> +1 <Defense>
+
+---
+
+Tunic of the Cyclops King
+
+<Instant> +1 <Spell Power>, then, draw a card. - or - <Instant> +3 <Spell Power>.
