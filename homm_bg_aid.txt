@@ -8,40 +8,59 @@ Unofficial Custom Player's Aid
     Information here is mostly the same as in the Core Rule Book or Rule Book Rewrite, but VERY MUCH MORE compact.
     
     Information that is NOT included in this document:
-        - COMPONENT LIST (pages 3-5)
-        - GAME OVERVIEW (page 6)
-        - GAME SETUP (pages 7-9)  // TOOD: seems GAME SETUP needs compact version
+        - COMPONENT LIST (pages 3-5)  // Irrelevant during gameplay
+        - GAME OVERVIEW (page 6)  // Irrelevant during gameplay
         - LIST OF MAP LOCATIONS (pages 20-25)  // TODO: make LIST OF MAP LOCATIONS WITH ? SYMBOL
-        - PLAYER vs AI (page 33)
-        - GAME SETTINGS (page 34)
+        - PLAYER vs AI (page 33)  // Relevant with AI only
+        - GAME SETTINGS (page 34)  // Use before game AS IS
         - Field Difficulty Level Table (page 35)  // Use during game AS IS
         - TRADE TABLE (page 36)  // Use during game AS IS
         - Core Rulebook PLAYER’S AID (page 40)  // Use during game AS IS
-        - Information that is on game components: Playing Cards, Unit Cards, Map Tiles, Hero Card, Town Board
+        - Information that is on game components: Playing Cards, Unit Cards, Map Tiles, Hero Cards, Town Boards
     It was decided that this excluded information is either easier to read from source or is easy to remember.
 
 
-GAME SETUP
-----------
-// TODO
+SCENARIO SETUP
+--------------
+    - Choose Difficulty.
+    - Set Environment: Map Tiles, Combat Board, Round Tracker.
+    - Set Tokens Piles: Resources, Damage, Paralysis/Defense, Morale, Black Cubes.
+    - Set Decks: Ability, Artifact (+10 Spell Scrolls), Spell, Neutral Units (+ Models),
+                 Astrologer, Event, Pandora’s Box.
+    - Set Cards Supply: Statistics, Empowered Statistics, War Machines, Walls, Gate, Arrow Tower,
+                        Spell Scrolls, Empowered Abilities, Summoned Units, Creature Bank Units.
+    - Set Tokens Supply: Attack, Weakness, Corrosion, Time, Quicksand, Summon, Clone, Whirlpool,
+                         Empowered Ability, Creature Bank, Stack, Force Field, Land Mine.
+    - Set Battlefield Extras: Obstacles, Fire Wall, Initiative, Morale Decks.
+    - Set other Scenario specific features.
+
+PLAYER SETUP
+------------
+    - Choose Faction and Main Hero.
+    - Set Starting Components:
+        - Main Hero (+ Model), Town (+ Model).
+        - Faction Cubes, Tokens (Build, Population, Spell Book, Movement).
+        - Units (+ Models), Buildings, Resources, Income, Bonus.
+    - Deck: Statistics, Ability, Specialty I, Magic Arrow (+1 IF Magic Hero).
+    - Supply: Secondary Hero Model, Units (+ Model), Buildings, Map Tiles, Specialty IV & VI.
 
 
 GAME ROUND
 ----------
     GAME ROUND BEGIN
         - Reset tokens
-            1. Town (Build, Population, Spell Book)
-            2. Heroes (Movement, Expert)
+            - Towns (Build, Population, Spell Book)
+            - Heroes (Movement, Expert)
         - Round type
-            IF First    => nothing
-            IF Resource => all Players gain income
-            IF Astro    => draw & resolve Astro card
+            - IF First    => resolve immediate effects from starting Buildings
+            - IF Resource => all Players gain income; draw & resolve Event card
+            - IF Astro    => draw & resolve Astrologer card
         - Scenario timed events
     ANYTIME DURING GAME ROUND
-        - Use Positive Morale => choose one option:
-            Draw 1 card
-            OR Discard & Draw same number of cards
-            OR Reroll your any die
+        - Use Positive Morale => choose one action:
+            - Draw 1 card
+            - Discard & Draw same number of cards
+            - Reroll your any die
     ANYTIME DURING GAME ROUND EXCEPT COMBAT
         - Build: build one building
         - Population: recruit & reinforce any number of Units
@@ -52,8 +71,9 @@ GAME ROUND
             - Discard any number of cards, then Draw cards up to Hero Limit
         DURING PLAYER TURN        
             - Use 1 MP to move & resolve field
+            - Use 1 MP to resolve field where Hero is now
             - Use 1 MP to discover Map Tile OR place Map Tile
-              (tile must touch your Hero & 2+ tiles, tile must have path to any tile)
+              (tile must touch your Hero & 2+ tiles; tile must have path to any tile)
             - Play cards from your hand
         PLAYER TURN END
             - IF 2x Negative Morale => discard all cards & lose 1x Negative Morale
@@ -62,9 +82,9 @@ GAME ROUND
         - IF Player plays 3 rounds without Town/Settlement => Lose game
 
 
-MAP LOCATIONS  // TODO: make separate LIST OF MAP LOCATIONS WITH ? SYMBOL
+MAP LOCATIONS
 -------------
-    - See LIST OF MAP LOCATIONS (Rulebook page 20)
+    - See LIST OF MAP LOCATIONS (Rulebook page 20)  // TODO: list locations with ? symbol
     - Settlement: Choose one option
                   IF first time         After capture
                   - gain 5 gold         - gold income +5
