@@ -25,7 +25,7 @@ SCENARIO SETUP
     - Choose Difficulty.
     - Set Environment: Map Tiles, Combat Board, Round Tracker.
     - Set Tokens Piles: Resources, Damage, Paralysis/Defense, Morale, Black Cubes.
-    - Set Decks: Ability, Artifact (+10 Spell Scrolls), Spell, Neutral Units (+ Models),
+    - Set Decks: Ability, Artifact (+ 10 Spell Scrolls), Spell, Neutral Units (+ Models),
                  Astrologer, Event, Pandora’s Box.
     - Set Cards Supply: Statistics, Empowered Statistics, War Machines, Walls, Gate, Arrow Tower,
                         Spell Scrolls, Empowered Abilities, Summoned Units, Creature Bank Units.
