@@ -10,7 +10,7 @@ Unofficial Custom Player's Aid
     Information that is NOT included in this document:
         - COMPONENT LIST (pages 3-5)  // Irrelevant during gameplay
         - GAME OVERVIEW (page 6)  // Irrelevant during gameplay
-        - LIST OF MAP LOCATIONS (pages 20-25)  // TODO: make LIST OF MAP LOCATIONS WITH ? SYMBOL
+        - LIST OF MAP LOCATIONS (pages 20-25)  // Locations which effect is described on Map Tile
         - PLAYER vs AI (page 33)  // Relevant with AI only
         - GAME SETTINGS (page 34)  // Use before game AS IS
         - Field Difficulty Level Table (page 35)  // Use during game AS IS
@@ -84,16 +84,38 @@ GAME ROUND
 
 MAP LOCATIONS
 -------------
-    - See LIST OF MAP LOCATIONS (Rulebook page 20)  // TODO: list locations with ? symbol
-    - Settlement: Choose one option
-                  IF first time         After capture
-                  - gain 5 gold         - gold income +5
-                  - gain 2 Ore          - ore income +2
-                  - gain 1 crystal      - crystal income +1
-                  - upgrade once one    - upgrade once one
-                    bronze/silver Unit    bronze/silver Unit
-                    for free              for half price (round up)
-
+    - Multi-Flaggable
+        - Obelisk: Specific effect
+        - Star Axis: Remove Statistic from Hand, replace with same Empowered.
+    - Flaggable
+        - Dragon Utopia: Specific effect
+        - Random Town: Random Faction, Pack of Bronze, 2x Pack of Silver, 2x Fews of Gold. Income 10 Gold. First Player gains 10 gold.
+        - Settlement: just like Mine, but choose Resource
+                      OR upgrade one bronze/silver Unit for half price round up (free for first Player)
+    - Revisitable
+        - Black Market: Look top 4 cards from Artifact Discard, buy one of them for:
+            5 Gold for Minor Artifact
+            7 Gold for Major Artifact
+            10 Gold for Relic Artifact
+        - Library of Enlightenment: Twice: Pay 3 Gold to Remove 1 Statistic from Hand or Discard, replace it with other Statistic.
+        - Sanctuary: Hero cannot be attacked here.
+        - Tavern: Pay 7 Gols to gain Secondary Hero & Choose enemy player to discard 1 random card from hand.
+        - Trading Post: Choose one: Trade resources — OR — Remove card (Sell card for 1 Gold) — OR — Buy War Machine
+        - War Machine Factory: Buy War Machine
+    - Visitable
+        - Hill Fort: Reinforce one Bronze or Silver with discount 3 Gold.
+        - Magic Spring: Look at top 3 Cards of Discard, return one to Hand. Return remaining to top of Discard in any order.
+        - Market of Time: Remove one card from hand, then Search (2) Ability, Spell or Artifact.
+        - Prison: Gain Secondary Hero. If you have Secondary Hero, gain 3 Gold.
+        - Redwood Observatory: Discover Map Tile adjacent to this.
+        - Scholar: Roll 1 Attack Die:
+            +1 - Gain any Statistic or Remove Statistic from hand.
+             0 - Draw 2 Cards from Ability, gain one, discard other.
+            -1 - Draw 2 Cards from Spell, gain one, discard other.
+        - University: Pay 6 Gold to Search (4) Ability Discard.
+        - Grail: Gain a Grail. Only one Grail exist. Specific effect.
+        - Tree of Knowledge: Pat 3 Crystla or 10 Gold to gain 2 Exp.
+        - Witch Hut: Remove Ability from Hand — OR — look top card of Ability, put it into Hand or into Ability Discard.
 
 HEROES
 ------
