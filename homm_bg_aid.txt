@@ -127,9 +127,10 @@ HEROES
 ------
                      MAIN                 SECONDARY (for 10 gold in Town/Settlement)
     Movement Point    3                    2
-    Use Deck & Exp    Yes                  No
-    Use Units         Yes                  Yes
     Collect Cards     Yes                  Yes
+    Use Units         Yes                  Yes
+    Use Hand          Yes                  Outside combat only
+    Gain Exp          Yes                  No
     Avoid combat      Surrender            Remove before combat (Counts as defeat)
     IF surrender =>   Move to Town/Settl   Remove
     IF defeated =>    Move to Town/Settl   Remove
