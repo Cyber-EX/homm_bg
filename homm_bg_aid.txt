@@ -90,7 +90,8 @@ MAP LOCATIONS
     - Flaggable
         - Dragon Utopia: Scenario specific effect.
         - Random Town: Same as Gold Mine, but income is 10 Gold.
-                       Guards: Random Faction, 1x Pack of Bronze, 2x Pack of Silver, 2x Few of Gold. 
+                       Guards: Random Faction, 1x Pack of Bronze, 2x Pack of Silver, 2x Few of Gold.
+                               Gate and Walls, but without Arrow Tower.
         - Settlement: Same as Mine, but Player chooses Resource.
                       OR Upgrade one bronze/silver Unit for half price round up (free for first Player)
     - Revisitable
