@@ -42,7 +42,7 @@ PLAYER SETUP
         - Faction Cubes, Tokens (Build, Population, Spell Book, Movement).
         - Units (+ Models), Buildings, Resources, Income, Bonus.
     - Deck: Statistics, Ability, Specialty I, Magic Arrow (+1 IF Magic Hero).
-    - Supply: Secondary Hero Model, Units (+ Model), Buildings, Map Tiles, Specialty IV & VI.
+    - Supply: Secondary Hero Model, Units (+ Models), Buildings, Map Tiles, Specialty IV & VI.
 
 
 GAME ROUND
