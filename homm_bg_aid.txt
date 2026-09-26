@@ -89,9 +89,9 @@ MAP LOCATIONS
         - Star Axis: Remove Statistic from Hand, replace with same Empowered Statistic.
     - Flaggable
         - Dragon Utopia: Scenario specific effect.
-        - Random Town: Just like Gold Mine, but income is 10 Gold.
+        - Random Town: Same as Gold Mine, but income is 10 Gold.
                        Guards: Random Faction, 1x Pack of Bronze, 2x Pack of Silver, 2x Few of Gold. 
-        - Settlement: Just like Mine, but Player chooses Resource.
+        - Settlement: Same as Mine, but Player chooses Resource.
                       OR Upgrade one bronze/silver Unit for half price round up (free for first Player)
     - Revisitable
         - Black Market: Look top 4 cards from Artifact Discard, buy one for:
